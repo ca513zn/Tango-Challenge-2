@@ -16,6 +16,7 @@
         <table class="table table-striped">
           <thead class="thead-dark">
             <tr>
+              <th scope="col">Position</th>
               <th scope="col">Name</th>
               <th scope="col">Manager email address</th>
               <th scope="col">Type of participant</th>
@@ -25,13 +26,13 @@
           <draggable v-model="thelist" tag="tbody">
             <router-link
               :to="{ name: 'edit',params: { slug: item.id } }"
-              v-for="item in thelist"
+              v-for="(item, index) in thelist"
               :key="item.name"
               tag="tr"
             >
+              <td scope="row" class="td-select">{{ index + 1 }}</td>
               <td scope="row" class="td-select">{{ item.name }}</td>
               <td>{{ item.manager_email }}</td>
-
               <td>{{ item.participant_type }}</td>
               <td>{{ item.foundation_date }}</td>
             </router-link>
