@@ -1,4 +1,4 @@
-###Recruitment web application using django rest framework
+### Recruitment web application using django rest framework
 In the root folder of the project ( folder containing requirements.txt and manage.py)
 run:
 ```
@@ -6,7 +6,7 @@ pip install -r requirements.txt
 ```
 
 
-###Open settings.py and edit the DATABASE settings to your MySql specifics
+### Open settings.py and edit the DATABASE settings to your MySql specifics
 ```
 DATABASES = {
     'default': {
@@ -20,25 +20,25 @@ DATABASES = {
 }
 
 ```
-###Change the NAME, USER, PASSWORD, HOST  and PORT  as appropriate
+### Change the NAME, USER, PASSWORD, HOST  and PORT  as appropriate
 
-###These values are gotten from your mysql database.
+### These values are gotten from your mysql database.
 
 
-###For a fresh install run:
+### For a fresh install run:
 ```
 python manage.py makemigrations
 ```
-###Then run
+### Then run
 ```
 python manage.py migrate
 ```
-###This will create the necessary tables in the database
+### This will create the necessary tables in the database
 
-###To create a superuser
+### To create a superuser
 python manage.py createsuperuser
 
-###Then run:
+### Then run:
 ```
 python manage.py runserver
 ```
