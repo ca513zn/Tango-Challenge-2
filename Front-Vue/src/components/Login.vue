@@ -8,7 +8,7 @@
           </div>
           <div class="column admin-login">
 
-              <router-link :to="{ name: 'homepage' }">    <h2>Machina web application</h2></router-link>
+              <router-link :to="{ name: 'homepage' }">    <h2>Rose Parade Signup</h2></router-link>
               <h1>Admin Login</h1>
               <div class="notification is-link" v-if="messages.length">
                   <button class="delete" v-on:click="clearMessages"></button>

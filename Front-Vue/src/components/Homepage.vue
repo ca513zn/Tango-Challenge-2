@@ -2,7 +2,7 @@
   <div class="homepage container">
 
           <router-link :to="{ name: 'login' }"><p class="admin-login-link">Admin Login</p></router-link>
-      <router-link :to="{ name: 'homepage' }">    <h1>Welcome to machina web application</h1></router-link>
+      <router-link :to="{ name: 'homepage' }">    <h1>Welcome to the Rose Parade Sign Up</h1></router-link>
 
 
       <div class="columns">
