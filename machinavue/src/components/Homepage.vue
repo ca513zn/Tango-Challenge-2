@@ -30,7 +30,7 @@
 
               <div class="field">
                   <label class="label">Manager email address</label>
-                  <div class="control has-icons-left has-icons-right">
+                  <div class="control has-icons-right">
                       <input class="input " type="email" placeholder="you@emaill.com" v-model="email">
                       <span class="icon is-small is-left">
       <i class="fas fa-envelope"></i>

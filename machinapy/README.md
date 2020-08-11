@@ -1,29 +1,15 @@
-### Recruitment web application using django rest framework
+### Rose Parade web application using django rest framework
+
+The default admin username and password is:
+```
+carlos123
+```
+
 In the root folder of the project ( folder containing requirements.txt and manage.py)
 run:
 ```
 pip install -r requirements.txt
 ```
-
-
-### Open settings.py and edit the DATABASE settings to your MySql specifics
-```
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mydatabase',
-        'USER': 'mydatabaseuser',
-        'PASSWORD': 'mypassword',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-    }
-}
-
-```
-### Change the NAME, USER, PASSWORD, HOST  and PORT  as appropriate
-
-### These values are gotten from your mysql database.
-
 
 ### For a fresh install run:
 ```
